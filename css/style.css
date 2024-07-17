@@ -1,0 +1,259 @@
+
+
+header{
+    background-color: #5300C8;
+    height: 96px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    box-shadow: 0 8px 4px rgba(0, 0, 0, 0.25);
+}
+.Titulo{
+    font-family: 'Press Start 2P';
+    font-size: 1.5rem;
+    color: white;
+    align-content: center;
+}
+
+header img{
+    width: 138px;
+    
+}
+
+main{
+    /* background-color: aquamarine; */
+    max-width: 1380px;
+    height: 1235px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.section_productos{
+    /* background-color: greenyellow; */
+    width: 758px;
+    max-height: 1115px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+
+    box-shadow: -8px 8px 8px rgba(0, 0, 0, 0.25);
+}
+
+.productos__titulo{
+    text-align: center;
+}
+
+.productos__titulo h2{
+    font-family: 'Press Start 2P';
+    font-size: 1.5rem;
+    margin: 2.5rem 2.5rem;
+    /* background-color: orange; */
+
+}
+
+.productos__items{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item_card {
+    background-color: #5300C8;
+    border-radius: 15px;
+    
+    box-shadow: -6px 6px 3px rgba(0, 0, 0, 0.25);
+    padding: 8px;
+    width: 196px;
+    margin: 10px;
+    /* text-align: center; */
+    color: white;
+    position: relative;
+    font-family: "IBM Plex Mono", monospace;
+    border: 5px solid black;
+}
+
+
+.item_card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.item_card h3 {
+    font-size: 1rem;
+    margin: 10px 0;
+    
+    
+}
+
+.item_card p {
+    font-size: 1.2rem;
+    margin: 0px 0;
+    font-weight: bold;
+}
+
+
+.card__precioboton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+
+}
+
+.delete-btn img.icon {
+    filter: invert(100%);
+
+}
+
+
+
+.delete-btn:hover img.icon {
+    filter: invert(50%) sepia(100%) saturate(5000%) hue-rotate(10deg) brightness(100%) contrast(100%);
+}
+
+
+
+
+
+
+/* Contenido de Formulario */
+
+
+
+
+.section_form{
+    width: 472px;
+    height: 517px;
+    /* background-color: beige; */
+
+    text-align: center;
+    /* padding: 20px; */
+}
+
+
+.form__titulo h2 {
+    font-size: 1.5rem;
+    color: #000;
+    font-family: 'Press Start 2P', sans-serif;
+    margin: 2.5rem 2.5rem;
+}
+
+.productos__form {
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    gap: 40px;
+}
+
+.form__input {
+    
+    width: 374px;
+    height: 50px;
+    padding-left: 10px;
+    border: 3px solid #000080; /* Navy */
+    border-radius: 45px;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 1rem;
+    font-weight: bold;
+    /* text-align: center; */
+    outline: none; 
+}
+
+.form__input::placeholder {
+    color: #03318C; /* Color del placeholder */
+    opacity: 1; /* Para asegurar que el color se aplique correctamente */
+    
+}
+
+
+
+.form__buttons {
+    /* background-color: violet; */
+    display: flex;
+    gap: 0px;
+    
+    width: 392px;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.btn {
+    height: 55px;
+    width: 188px;
+    padding: 0px 60px;
+    border: 3px solid #000080; /* Navy */
+    border-radius: 15px;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+.btn-enviar {
+    background-color: #000080; /* Navy */
+    color: white;
+}
+
+.btn-limpiar {
+    background-color: white;
+    color: #000080; /* Navy */
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+
+footer{
+    box-shadow: 0 -16px 8px rgba(0, 0, 0, 0.25);
+    background-color: #5300C8;
+    height: 232px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+
+}
+
+
+.footer__titulo{
+    
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    
+}
+
+
+.footer__titulo img{
+    width: 138px;
+}
+
+.footer__subtitulo p{
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 1rem;
+    
+    color: white;
+}
+
+.footer__subtitulo{
+    line-height: 30px;
+    text-align: center;
+}
+
+.footer__nombre{
+    color: #fc7844;
+}
